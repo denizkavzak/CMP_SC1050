@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 void print_matrix(int rows, int cols, int a[rows][cols]) {
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++)
@@ -14,7 +15,7 @@ int main(void) {
     // int m[3][2] = {{1,2}, {3,4} ,{5,6}};
     // int m[3][2] = {1,2,3,4,5,6};
 
-    // ❌ Bug: swapped rows and cols
+    //  Bug: swapped rows and cols
     
     print_matrix(3, 2, m);
 
