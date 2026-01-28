@@ -5,7 +5,7 @@
 int main() {
 
     #ifndef FEATURE
-        #warning "Feature not enabled"
+        #error "Feature not enabled"
     #else
         printf("Feature value: %d\n", FEATURE);
     #endif
