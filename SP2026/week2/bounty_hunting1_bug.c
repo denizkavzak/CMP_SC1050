@@ -17,7 +17,8 @@ int main(void)
     sum = a + b;
 
     /* Print the result */
-    printf("The sum is %d\n", sum);
+    // printf("The sum is %d\n", &sum); // BUG
+    printf("The sum is %d\n", sum); // FIX
 
     return 0;
 }
