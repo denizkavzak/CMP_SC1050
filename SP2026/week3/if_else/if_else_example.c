@@ -9,7 +9,7 @@ int main(){
     {
         printf("They are equal\n");
     }
-    else //if(num1 != num2)
+    else if(num1 != num2)
     {
         printf("They are NOT equal\n");
     }
