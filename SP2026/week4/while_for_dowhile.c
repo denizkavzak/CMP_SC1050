@@ -23,5 +23,11 @@ int main(){
         counter++;
     }while(counter <= 10);
 
+    counter = 11;
+    while(counter <= 10){
+        printf("%d\n", counter);
+        counter++;
+    }
+
     return 0;
 }
