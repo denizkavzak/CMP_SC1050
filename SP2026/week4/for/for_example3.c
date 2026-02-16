@@ -11,6 +11,10 @@ int main(){
     // infinite loop
     for(;;) 
         printf("Empty for loop\n");
+
+    // infinite loop
+    for(int counter=0 ; counter<10; ) 
+        printf("Empty for loop\n");    
         
     // infinite loop for while
     while(1){
