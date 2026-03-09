@@ -8,16 +8,18 @@ int main(){
     // int x = 1;
     // int x = 2;
 
-    printf("x value is (global variable): %d\n", x);
+    printf("1. x value is (global variable): %d\n", x);
     int x = 5; // x is redefined as a local variable with value 5
-    printf("x value is: %d\n", x); 
+    printf("2. x value is: %d\n", x); 
     {
         int x = 4; // x is redefined as 4
-        printf("x value is: %d\n", x); 
+        printf("3. x value is: %d\n", x); 
         {
-            printf("x value is: %d\n", x); // x is still 4
+            printf("4. x value is: %d\n", x); // x is still 4
             int x = 3; // x is redefined as 3
-            printf("x value is: %d\n", x); 
+            printf("5. x value is: %d\n", x); 
         }
+        printf("6. x value is: %d\n", x); 
     }
+    printf("7. x value is: %d\n", x); 
 }
