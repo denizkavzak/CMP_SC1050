@@ -1,7 +1,7 @@
 #include<stdio.h>
 
-#define STUDENTS 2
-#define GRADES 3
+#define STUDENTS 2 // row size
+#define GRADES 3 // column size
 
 float average(int studentGrades[], int grades);
 int max(int studentGrades[], int grades);

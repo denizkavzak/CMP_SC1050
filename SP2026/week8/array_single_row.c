@@ -3,6 +3,8 @@
 #define ROW 2 // symbolic constants
 #define COL 3
 
+#define SIZE 10
+
 int main(){
 
     int arr1[ROW][COL];
