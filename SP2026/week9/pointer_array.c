@@ -5,8 +5,9 @@ int main(){
     int a[] = {1,2,3,4,5};
     int *p = a;
 
-    printf("value of a is: %p\n", a);
-    printf("address of a is: %p\n", &a);
+    printf("value of a is: %p\n", a); //&a[0]
+    printf("value of &a[0] is: %p\n", &a[0]);
+    printf("address of a is: %p\n", &a); //(a+0)
     printf("value of p is: %p\n", p);
     
     printf("value of a[0] is: %d\n", a[0]);

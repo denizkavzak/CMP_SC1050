@@ -7,9 +7,13 @@ int main(){
 
     printf("address of a is: %p\n", &a);
     printf("value of p is: %p\n", p);
+    printf("value of p is: %d\n", *p);
 
     printf("value of p+1 is: %p\n", p+1);
     printf("value of p+2 is: %p\n", p+2);
+
+    printf("value of p+1 is: %d\n", *(p+1));
+    printf("value of p+2 is: %d\n", *(p+2));
 
     return 0;
 }
