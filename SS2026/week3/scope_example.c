@@ -1,0 +1,34 @@
+#include<stdio.h>
+
+int x = 10; // global variable
+
+int main(){
+
+    // normally we cannot do this
+    // int x = 1;
+    // int x = 2;
+    // int i = 10;
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     int a = 10;
+    //     a = a + i;
+    //     printf("%d\n", a);
+    // }
+    
+    // printf("%d\n", i);
+
+    printf("1. x value is (global variable): %d\n", x);
+    int x = 5; // x is redefined as a local variable with value 5
+    printf("2. x value is: %d\n", x); 
+    {
+        int x = 4; // x is redefined as 4
+        printf("3. x value is: %d\n", x); 
+        {
+            printf("4. x value is: %d\n", x); // x is still 4
+            //int x = 3; // x is redefined as 3
+            //printf("5. x value is: %d\n", x); 
+        }
+        printf("6. x value is: %d\n", x); 
+    }
+    printf("7. x value is: %d\n", x); 
+}
